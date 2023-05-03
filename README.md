@@ -14,7 +14,7 @@ Only requires the default job_name: node, add as many targets as you need in '/e
 ```
   - job_name: node
     static_configs:
-      - targets: ['localhost:9100']
+      - targets: ['localhost:9000']
 ```
 
 Recommended for prometheus-node-exporter the arguments '--collector.systemd --collector.processes' because the graph uses some of their metrics.
